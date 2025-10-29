@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.section-container{
+  @apply max-y-6xl mx-auto text-center;
+}
+*{
+  font-family: "Quicksand", sans-serif;
+}
+body{
+  background-image: url('images/bg-header-desktop.png');
+  background-repeat:no-repeat;
+  background-size: contain;
+}
+@media(max-width:576px){
+  body{
+    background-image: url('images/bg-header-mobile.png');
+  background-repeat:no-repeat;
+  background-size: contain;
+  }
+}
